@@ -10954,9 +10954,15 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
-.navbar-brand {
+.container .navbar-brand {
   font-family: "poppins";
   font-weight: bold;
+}
+.container .navbar-collapse {
+  font-family: "poppins";
+}
+.container .dropdown-menu {
+  font-family: "poppins";
 }
 
 @media screen and (min-width: 365px) {

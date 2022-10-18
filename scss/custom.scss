@@ -23,10 +23,21 @@
     }
     
 }
+.container {
+    
 .navbar-brand {
     font-family: 'poppins';
     font-weight: bold;
        
+}
+
+.navbar-collapse {
+    font-family: 'poppins';
+
+}
+.dropdown-menu {
+    font-family: 'poppins';
+}
 }
 
 @media  screen and (min-width:365px) {
