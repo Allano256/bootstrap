@@ -10934,4 +10934,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar-collapse {
+  justify-content: space-between;
 }/*# sourceMappingURL=custom.css.map */
