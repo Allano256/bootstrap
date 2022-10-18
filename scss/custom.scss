@@ -1,11 +1,39 @@
 
-
-
-
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.navbar-collapse {
-    justify-content: space-between;
 
+
+.media-icons {
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+    .social-media {
+        display: flex;
+        
+    }
+    .wrap {
+        display: flex;
+       align-items: center;
+       position: relative;
+       bottom:10px;
+    }
+    .social {
+        font-family: 'poppins';
+       font-weight: bold;
+    }
+    
+}
+.navbar-brand {
+    font-family: 'poppins';
+    font-weight: bold;
+       
+}
+
+@media  screen and (min-width:365px) {
+    .social-media{
+                  justify-content: space-between;
+    }
+    .navbar-collapse{
+                  justify-content: flex-end;
+    }
 }
