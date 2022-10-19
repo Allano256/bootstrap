@@ -10961,6 +10961,9 @@ textarea.form-control-lg {
 .container .navbar-collapse {
   font-family: "poppins";
 }
+.container .nav-item:hover {
+  background-color: azure;
+}
 .container .dropdown-menu {
   font-family: "poppins";
 }
